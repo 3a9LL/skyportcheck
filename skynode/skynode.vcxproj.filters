@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{25698042-e3a7-46c6-abf7-3fa8592fd416}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\rc4_c">
+      <UniqueIdentifier>{b147b0ef-f264-40c4-badf-5f90ff54e83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a31baa12-1678-413d-8870-2b17c486af00}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\crypto">
+      <UniqueIdentifier>{de6e4092-1cab-4b52-a22a-f86eb427ccc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rc4">
+      <UniqueIdentifier>{81e20975-3753-4919-a8a8-55ba03bfbd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e9956461-ec2a-47eb-bb2d-0f80321678fd}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rc4\Expand_IV.c">
+      <Filter>Source Files\rc4_c</Filter>
+    </ClCompile>
+    <ClCompile Include="comm_sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skynode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_pkt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crypto\aes.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\crypto.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="rc4\Expand_IV.h">
+      <Filter>Header Files\rc4</Filter>
+    </ClInclude>
+    <ClInclude Include="rc4\Process_IV.h">
+      <Filter>Header Files\rc4</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="short_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
